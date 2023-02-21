@@ -1,0 +1,240 @@
+body {
+    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+
+/* обнуляєм крапочки */
+.list {
+    list-style: none;
+}
+
+/* підкреслення */
+a {
+    text-decoration: none;
+
+}
+
+
+
+
+/* -------header-------- */
+
+/* logo */
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.logo-item {
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header,
+.header-item {
+    color: #2E2F42;
+}
+
+.header-list,
+.list {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+/* adres */
+
+.adres-list-mal,
+.adres-list-tel {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* -------geroy-------- */
+
+.hirol {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* кнопка */
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5
+}
+
+.button {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+
+
+/* -------principes-------- */
+
+
+.principes-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+.principes-description {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    order: 1;
+}
+
+
+.section-subject {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+
+/* -------section 1-------- */
+
+
+.img-subject {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+/* -------section 2-------- */
+
+.section-item {
+    background-color: #F4F4FD;
+    ;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+
+
+
+/* foto-section-2 */
+
+.page {
+    background-color: #FFFFFF;
+}
+
+
+.img-foto {
+    color: #FFFFFF;
+}
+
+.img-text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+/* -------footer-------- */
+
+/* фон */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+
+
+.footer-logo-item {
+    color: #F4F4FD;
+}
+
+
+.footer-text {
+    color: #E7E9FC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+/* --------------------------   PARTFOLIO  --------------------------*/
+.visually-hidden {
+    opacity: 0;
+}
+
+/* кнопки */
+
+.button-div:hover {
+    background-color: #4D5AE5;
+}
+
+
+.btn-list {
+
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+
+/* секція списку */
+
+.section-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+}
+
+
+
+.section-text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
