@@ -1,5 +1,16 @@
+:root {
+    --praymery-text-color: #2E2F42;
+    --titli-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --accent-colot-too: #404BBF;
+    --titli-list--color: #FFFFFF;
+    --accent-list-color: #F4F4FD;
+    --accent-list-colot-too: #E7E9FC;
+}
+
+
 body {
-    color: #2E2F42;
+    color: var(--titli-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
@@ -23,7 +34,7 @@ a {
 
 /* logo */
 .logo {
-    color: #4D5AE5;
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -34,7 +45,7 @@ a {
 }
 
 .logo-item {
-    color: #2E2F42;
+    color: var(--praymery-text-color);
     letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
@@ -45,7 +56,7 @@ a {
 
 .header,
 .header-item {
-    color: #2E2F42;
+    color: var(--praymery-text-color);
 }
 
 .header-list,
@@ -57,22 +68,26 @@ a {
 
 }
 
+.header-current {
+    color: var(--accent-colot-too);
+}
+
 /* adres */
 
 .adres-list-mal,
 .adres-list-tel {
-    color: #434455;
+    color: var(--titli-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
 }
 
 /* -------geroy-------- */
 
 .hirol {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    font-weight: 700;
+    background-color: var(--praymery-text-color);
+    color: var(--titli-list--color);
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
@@ -80,8 +95,12 @@ a {
 
 /* кнопка */
 .button {
-    color: #FFFFFF;
-    background-color: #4D5AE5
+    color: var(--titli-list--color);
+    background-color: var(--accent-color);
+}
+
+.button :hover {
+    color: var(--accent-colot-too);
 }
 
 .button {
@@ -91,6 +110,7 @@ a {
     align-items: center;
     letter-spacing: 0.04em;
     font-weight: 500;
+    cursor: pointer;
 }
 
 
@@ -107,8 +127,7 @@ a {
 
 
 .principes-description {
-    color: #434455;
-    font-weight: 400;
+    color: var(--titli-text-color);
     font-size: 16px;
     line-height: 1.5;
     order: 1;
@@ -117,7 +136,6 @@ a {
 
 .section-subject {
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
 }
@@ -137,12 +155,12 @@ a {
 /* -------section 2-------- */
 
 .section-item {
-    background-color: #F4F4FD;
-    ;
+    background-color: var(--accent-list-color);
+
 }
 
 .section-title {
-    font-weight: 700;
+
     font-size: 36px;
     line-height: 1.1;
 }
@@ -153,16 +171,16 @@ a {
 /* foto-section-2 */
 
 .page {
-    background-color: #FFFFFF;
+    background-color: var(--titli-list--color);
 }
 
 
 .img-foto {
-    color: #FFFFFF;
+    color: var(--titli-list--color);
 }
 
 .img-text {
-    color: #434455;
+    color: var(--titli-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -181,18 +199,18 @@ a {
 /* фон */
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--praymery-text-color);
 }
 
 
 
 .footer-logo-item {
-    color: #F4F4FD;
+    color: var(--accent-list-color);
 }
 
 
 .footer-text {
-    color: #E7E9FC;
+    color: var(--accent-list-colot-too);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -209,16 +227,16 @@ a {
 }
 
 /* кнопки */
-
-.button-div:hover {
-    background-color: #4D5AE5;
+.button-div :hover {
+    color: var(--titli-list--color);
+    background-color: var(--accent-colot-too);
 }
-
 
 .btn-list {
 
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    color: var(--accent-color);
+    background-color: var(--accent-list-color);
+    cursor: pointer;
 }
 
 /* секція списку */
@@ -233,7 +251,7 @@ a {
 
 
 .section-text {
-    color: #434455;
+    color: var(--titli-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
