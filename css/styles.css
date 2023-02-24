@@ -261,11 +261,11 @@ a {
 }
 
 .btn-list {
-
+    font-family: Roboto, sans-serif;
     color: var(--accent-color);
     background-color: var(--accent-list-color);
     cursor: pointer;
-    font-family: Roboto, sans-serif;
+
 }
 
 /* секція списку */
