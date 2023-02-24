@@ -84,11 +84,12 @@ a {
 
 /* adres */
 
-.adres-list-mal:hover {
+
+.adres-list-mal:focus {
     color: var(--accent-colot-too);
 }
 
-.adres-list-mal:focus {
+.adres-list-mal:hover {
     color: var(--accent-colot-too);
 }
 
