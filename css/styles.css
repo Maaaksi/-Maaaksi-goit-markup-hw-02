@@ -54,18 +54,28 @@ a {
     text-transform: uppercase;
 }
 
-.header,
-.header-item {
-    color: var(--praymery-text-color);
-}
-
 .header-list,
 .list {
-
-    font-weight: 500;
+    font-family: 500;
     font-size: 16px;
     line-height: 1.5;
 
+}
+
+
+.header-item:hover {
+    color: var(--accent-colot-too);
+}
+
+.header-item:focus {
+    color: var(--accent-colot-too);
+}
+
+.header-item {
+    color: var(--praymery-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .header-current {
@@ -73,6 +83,14 @@ a {
 }
 
 /* adres */
+
+.adres-list-mal:hover {
+    color: var(--accent-colot-too);
+}
+
+.adres-list-mal:focus {
+    color: var(--accent-colot-too);
+}
 
 .adres-list-mal,
 .adres-list-tel {
@@ -99,11 +117,16 @@ a {
     background-color: var(--accent-color);
 }
 
-.button :hover {
-    color: var(--accent-colot-too);
+.button:hover {
+    background-color: var(--accent-colot-too);
+}
+
+.button:focus {
+    background-color: var(--accent-colot-too);
 }
 
 .button {
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
@@ -118,19 +141,16 @@ a {
 /* -------principes-------- */
 
 
-.principes-subject {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-}
 
 
 
 .principes-description {
     color: var(--titli-text-color);
+    font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
     order: 1;
+
 }
 
 
@@ -227,9 +247,17 @@ a {
 }
 
 /* кнопки */
+
+
 .button-div :hover {
     color: var(--titli-list--color);
     background-color: var(--accent-colot-too);
+}
+
+.button-div :focus {
+    color: var(--titli-list--color);
+    background-color: var(--accent-colot-too);
+
 }
 
 .btn-list {
@@ -237,6 +265,7 @@ a {
     color: var(--accent-color);
     background-color: var(--accent-list-color);
     cursor: pointer;
+    font-family: Roboto, sans-serif;
 }
 
 /* секція списку */
